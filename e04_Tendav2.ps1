@@ -4,6 +4,7 @@ $precio = [float]$precio
 $cantidad = Read-Host "Introduce la cantidad"
 $cantidad = [int]$cantidad
 
+# Calculamos el total
 $total = $cantidad * $precio
 
 if ($total -ge 200) {

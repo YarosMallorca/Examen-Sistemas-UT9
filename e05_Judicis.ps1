@@ -4,6 +4,8 @@ $condenasAnteriores = Read-Host "Introduce cantidad de condenas anteriores"
 $dineroRobado = [float]$dineroRobado
 $condenasAnteriores = [int]$condenasAnteriores
 
+# Aquí he puesto if dentro de otro if, y eso se puede hacer, y es mucho mejor que hacer un montón de elseif
+
 if ($dineroRobado -ge 2000) {
     if ($condenasAnteriores -gt 2) {
         Write-Host "5 años"
